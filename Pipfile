@@ -1,0 +1,22 @@
+[[source]]
+url = 'https://mirrors.aliyun.com/pypi/simple'
+verify_ssl = true
+name = 'pypi'
+
+[requires]
+python_version = '3.6'
+
+[packages]
+click = "==7.*"
+pymysql = "==0.9.*"
+zstandard = "==0.11.*"
+oss2 = "==2.7.*"
+
+[dev-packages]
+pytest = '*'
+flake8 = '*'
+
+[scripts]
+test = 'pytest'
+flake8 = 'flake8'
+backup = 'python commands.py backup'
