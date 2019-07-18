@@ -1,10 +1,10 @@
 import click
 import logging.config
-from udbs.transfer.source import Source
-from udbs.transfer.target import Target
+from abs.transfer.source import Source
+from abs.transfer.target import Target
 
-from udbs.config.log import log_config
-from udbs.config.db import backup_config
+from abs.config.log import log_config
+from abs.config.db import backup_config
 
 
 @click.group()
